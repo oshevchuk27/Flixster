@@ -26,7 +26,8 @@ Flixster is an app that allows users to browse movies from the [The Movie Databa
 <img src="YOUR_GIF_URL_HERE" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+I remember having an error when calling an into() method on the Glide object with a parameter of the image view poster passed in. The reason for that was that I declared 
+the poster type as TextView as opposed to ImageView, and that is why image URL could not be loaded onto the TextView object.
 
 ### Open-source libraries used
 
